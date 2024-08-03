@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Men",
+    "image": "/assets/img/icons/category/cat1.svg",
+    "backgroundImage": "/assets/img/icons/category/cat-bg-1.png",
+    "url": "/shop"
+  },
+  {
+    "id": "2",
+    "name": "Women",
+    "image": "/assets/img/icons/category/cat2.svg",
+    "backgroundImage": "/assets/img/icons/category/cat-bg-2.png",
+    "url": "/shop"
+  },
+  {
+    "id": "3",
+    "name": "Bag",
+    "image": "/assets/img/icons/category/cat3.svg",
+    "backgroundImage": "/assets/img/icons/category/cat-bg-3.png",
+    "url": "/shop"
+  },
+  {
+    "id": "4",
+    "name": "Shirt",
+    "image": "/assets/img/icons/category/cat4.svg",
+    "backgroundImage": "/assets/img/icons/category/cat-bg-4.png",
+    "url": "/shop"
+  },
+  {
+    "id": "5",
+    "name": "Sports",
+    "image": "/assets/img/icons/category/cat5.svg",
+    "backgroundImage": "/assets/img/icons/category/cat-bg-5.png",
+    "url": "/shop"
+  }
+]

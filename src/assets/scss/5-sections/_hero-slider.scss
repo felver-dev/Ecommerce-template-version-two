@@ -1,0 +1,103 @@
+/*=============================================
+=            hero slider            =
+=============================================*/
+
+.hero-slider-wrapper {
+  .swiper-slide-active {
+    .hero-slider-content {
+      > * {
+        &:nth-child(1) {
+          animation-name: fadeInDown;
+          animation-duration: 1s;
+          animation-delay: 0.5s;
+        }
+        &:nth-child(2) {
+          animation-name: fadeInDown;
+          animation-duration: 1s;
+          animation-delay: 1.5s;
+        }
+      }
+    }
+  }
+
+  .swiper-pagination {
+    line-height: 1;
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    display: inline-block;
+
+    text-align: left;
+    &-bullet {
+      font-size: 0;
+
+      display: inline-block;
+
+      width: 15px;
+      height: 15px;
+      margin: 0 !important;
+      margin-right: 5px !important;
+      padding: 0;
+
+      opacity: 1;
+      border: 3px solid $grey--two;
+      border-radius: 50%;
+      background: none;
+      background-color: $white;
+
+      &-active {
+        background-color: $theme-color--default;
+      }
+
+      &:hover,
+      &:focus {
+        button {
+          background-color: $theme-color--default;
+        }
+      }
+    }
+  }
+}
+
+.hero-slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: auto !important;
+  height: 170px;
+
+  border-radius: 5px;
+}
+
+
+.hero-slider-content {
+  width: 300px;
+  max-width: 100%;
+  & > * {
+    animation-name: fadeOutUp;
+    animation-duration: 1s;
+
+    animation-fill-mode: both;
+  }
+  &__title {
+    font-family: $merriweather;
+    font-size: 20px;
+    line-height: 1.2;
+
+    margin-bottom: 5px;
+
+    color: $black--ten;
+  }
+
+  &__text {
+    font-family: $consolas;
+    font-weight: 500;
+
+    color: $black--ten;
+  }
+}
+
+/*=====  End of hero slider  ======*/

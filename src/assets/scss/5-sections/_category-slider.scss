@@ -1,0 +1,47 @@
+
+/*=============================================
+=            category slider            =
+=============================================*/
+
+.category-item {
+  text-align: center;
+  &__image {
+    position: relative;
+
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+
+    a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      display: inline-block;
+
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__title {
+    a {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1;
+
+      display: block;
+
+      text-transform: uppercase;
+
+      color: $grey--twentyFour;
+
+      &:hover {
+        text-decoration: underline;
+
+        color: $theme-color--default;
+      }
+    }
+  }
+}
+
+/*=====  End of category slider  ======*/
+

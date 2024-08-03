@@ -1,0 +1,5 @@
+{
+  "name": "banner",
+  "private": true,
+  "main": "./Banner.js"
+}

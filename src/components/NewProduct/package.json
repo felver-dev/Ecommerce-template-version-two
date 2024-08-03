@@ -1,0 +1,5 @@
+{
+  "name": "new-product",
+  "private": true,
+  "main": "./NewProduct.js"
+}

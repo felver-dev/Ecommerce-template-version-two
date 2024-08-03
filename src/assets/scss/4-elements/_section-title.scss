@@ -1,0 +1,25 @@
+
+/*=============================================
+=            Section Title            =
+=============================================*/
+.section-title {
+  font-size: 18px;
+
+  position: relative;
+
+  color: $black--eleven;
+  a {
+    font-size: 13px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    transform: translateY(-50%);
+
+    color: $grey--twelve;
+  }
+}
+
+/*=====  End of Section Title  ======*/

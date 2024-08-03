@@ -1,0 +1,42 @@
+
+/*=============================================
+=            banner            =
+=============================================*/
+
+.banner-content {
+  position: relative;
+  &__image {
+    a {
+      display: block;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  &__text {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+
+    transform: translateY(-50%);
+    .title {
+      font-family: $merriweather;
+      font-size: 22px;
+      line-height: 1.2;
+
+      margin-bottom: 5px;
+
+      color: $theme-color--default;
+    }
+
+    .subtitle {
+      font-family: $consolas;
+      font-size: 13px;
+
+      color: $theme-color--default;
+    }
+  }
+}
+
+/*=====  End of banner  ======*/
+

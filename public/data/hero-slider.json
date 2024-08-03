@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Popular <br> Hand Bag",
+    "subtitle": "GET 30% OFF",
+    "image": "/assets/img/hero-slider/slider-1.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "New <br> Shoes",
+    "subtitle": "GET 40% OFF",
+    "image": "/assets/img/hero-slider/slider-1.jpg"
+  },
+
+  {
+    "id": 3,
+    "title": "Featured <br> Clothes",
+    "subtitle": "GET 50% OFF",
+    "image": "/assets/img/hero-slider/slider-1.jpg"
+  }
+]

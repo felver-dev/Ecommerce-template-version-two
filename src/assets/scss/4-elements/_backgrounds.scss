@@ -1,0 +1,16 @@
+.bg-color--grey {
+  background-color: rgba($grey, 0.10);
+}
+.bg-color--grey2 {
+  background-color: $grey--ten;
+}
+.bg-color--grey3 {
+  background-color: $grey--twenty;
+}
+.bg-color--transparent {
+  background-color: transparent;
+}
+
+.bg-color--gradient {
+  background-image: linear-gradient(to bottom,  $white 0%, $white 100%);
+}
